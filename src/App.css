@@ -1,0 +1,119 @@
+
+.navbar .right ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(233, 217, 248);
+    height: 70px;
+    padding-left: 8px;
+    padding-right: 8px;
+   
+}
+.navbar .right ul .demo{
+    background-color: rgb(240, 158, 35);
+    width: 100px;
+   cursor: pointer;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    border: 1px solid black;
+}
+.navbar .right ul .signin{
+    background-color: rgb(249, 250, 250);
+    width: 120px;
+   cursor: pointer;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 80px;
+    border: 1px solid black;
+}
+.navbar .right ul .demo:hover{
+    background-color: rgb(192, 141, 64);
+}
+*{
+    padding: 0%;
+    margin: 0%;
+    -webkit-user-select: none; /* Safari */
+    -ms-user-select: none; /* IE 10 and IE 11 */
+    user-select: none; /* Standard syntax */
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    background-color: rgb(233, 217, 248);
+    height: 70px;
+    padding-left: 8px;
+    padding-right: 8px;
+  width: 100vw;
+bottom: 0px;
+    position: absolute;
+}
+.contents{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row; 
+    height: 100vh;
+}
+.rightcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   align-items: flex-start;
+   gap: 20px;
+   max-width: 500px;
+   
+    height: 400px;
+    flex-wrap: wrap;
+    width: 50%;
+}
+.leftcontent{
+    width: 50%;
+    
+}
+.imgchair{
+    width: 100%;
+    height: 50vh;
+    width: 40vw;
+}
+.bookdemo{
+    width: 160px;
+    height: 30px;
+    border-radius: 80px;
+    border: 1px solid black;
+}
+.bookdemo:hover{
+background-color: rgb(196, 196, 213);
+}
+.bottom{
+width: 100%;
+background-color: rgb(233, 217, 248);
+height: 160px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+align-items: center;
+gap: 20px;
+}
+p{
+    line-height: 25px;
+}
